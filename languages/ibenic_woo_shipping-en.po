@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-11-11 15:52+0100\n"
+"PO-Revision-Date: 2015-11-11 15:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: restrictions/ibenic_woo_hp_restriction.php:55
+#, php-format
+msgid "Sorry, %s is not shipping to %s"
+msgstr ""
+
+#: restrictions/ibenic_woo_hp_restriction.php:61
+#, php-format
+msgid "%s is shipping to %s"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:15
+msgid "Croatian Post Office Shipping"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:16
+msgid ""
+"Calculate shipping cost for package  delivery using Croatian Post Office"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:17
+msgid "Croatian Post Office"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:48
+msgid "Enable"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:50
+msgid "Enable this shipping."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:63
+msgid "Croatia - Ransom"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:65
+msgid "Using ransom when shipping in Croatia."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:69
+msgid "Croatia - Returnee"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:71
+msgid "Using returnee when shipping in Croatia."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:75
+msgid "Croatia - Allocated / Grossly"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:77
+msgid "Packages are allocated or grossly when shipping in Croatia."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:96
+msgid "International - Type of Package"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:105
+msgid "International - Ransom (Cash on Delivery)"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:107
+msgid "Using ransom when shipping International."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:111
+msgid "International - Returnee (Advice of Delivery)"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:113
+msgid "Using returnee when shipping International."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:117
+msgid "International - Cumbersome"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:119
+msgid "Packages are grossly/cumbersome when shipping International."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:124
+msgid "International - Fragile"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:126
+msgid "Packages are fragile when shipping International."
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:133
+msgid "International - Insured Value"
+msgstr ""
+
+#: shippings/ibenic_woo_hp_shipping.php:135
+msgid ""
+"Enable or disable insured value for packages that can be sent with it. If "
+"disabled, insured value is applied only to shippings which require it and "
+"cannot ship without it."
+msgstr ""

@@ -1,4 +1,4 @@
-# Croatian Shipping for WooCommerce 
+=== Croatian Shipping for WooCommerce ===
 Contributors: ibenic
 Tags: croatian shipping, woocommerce
 Requires at least: 4.0
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Croatian Shipping methods for WooCommerce with restrictions. This plugin provides shipping methods available for Croatia.
 
-## Description 
+== Description ==
 
 Croatian Shipping methods for WooCommerce with restrictions. This plugin provides shipping methods available for Croatia.
 
@@ -31,7 +31,7 @@ Under consideration and development:
 
  - Tisak Shipping method
 
-## Installation 
+== Installation ==
 
 This section describes how to install the plugin and get it working.
 
@@ -41,7 +41,7 @@ This section describes how to install the plugin and get it working.
 
 
 
-## Changelog 
+== Changelog ==
 
 = 1.0 =
 * Initial upload

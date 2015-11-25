@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Croatian Shipping\n"
+"POT-Creation-Date: 2015-11-25 19:52+0100\n"
+"PO-Revision-Date: 2015-11-25 19:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: restrictions/ibenic_woo_hp_restriction.php:30
+#: shippings/ibenic_woo_hp_shipping.php:17
+msgid "Croatian Post Office"
+msgstr "Hrvatska Pošta"
+
+#: restrictions/ibenic_woo_hp_restriction.php:37
+#: restrictions/ibenic_woo_hp_restriction.php:98
+#, php-format
+msgid "Sorry, %s is not shipping to %s"
+msgstr "Nažalost, %s ne dostavlja u %s"
+
+#: restrictions/ibenic_woo_hp_restriction.php:104
+#, php-format
+msgid "%s is shipping to %s"
+msgstr "%s dostavlja u %s"
+
+#: shippings/ibenic_woo_hp_shipping.php:15
+msgid "Croatian Post Office Shipping"
+msgstr "Dostava Hrvatske Pošte"
+
+#: shippings/ibenic_woo_hp_shipping.php:16
+msgid ""
+"Calculate shipping cost for package  delivery using Croatian Post Office"
+msgstr "Izračunaj cijenu dostave za paket koristeći Hrvatsku Poštu"
+
+#: shippings/ibenic_woo_hp_shipping.php:48
+msgid "Enable"
+msgstr "Omogući"
+
+#: shippings/ibenic_woo_hp_shipping.php:50
+msgid "Enable this shipping."
+msgstr "Omogući ovu dostavu."
+
+#: shippings/ibenic_woo_hp_shipping.php:63
+msgid "Croatia - Ransom"
+msgstr "Hrvatska - otkupnina"
+
+#: shippings/ibenic_woo_hp_shipping.php:65
+msgid "Using ransom when shipping in Croatia."
+msgstr "Koristi otkupninu prilikom dostavljanja unutar Hrvatske"
+
+#: shippings/ibenic_woo_hp_shipping.php:69
+msgid "Croatia - Returnee"
+msgstr "Hrvatska - povratnica"
+
+#: shippings/ibenic_woo_hp_shipping.php:71
+msgid "Using returnee when shipping in Croatia."
+msgstr "Koristi povratnicu pri dostavljanju unutar Hrvatske"
+
+#: shippings/ibenic_woo_hp_shipping.php:75
+msgid "Croatia - Allocated / Grossly"
+msgstr "Hrvatska -  Izdvojeno/Glomazno"
+
+#: shippings/ibenic_woo_hp_shipping.php:77
+msgid "Packages are allocated or grossly when shipping in Croatia."
+msgstr "Paketi su izdvojeni ili glomazni prilikom dostavljanja unutar Hrvatske"
+
+#: shippings/ibenic_woo_hp_shipping.php:96
+msgid "International - Type of Package"
+msgstr "Međunarodno - tip paketa"
+
+#: shippings/ibenic_woo_hp_shipping.php:105
+msgid "International - Ransom (Cash on Delivery)"
+msgstr "Međunarodno - otkupnina"
+
+#: shippings/ibenic_woo_hp_shipping.php:107
+msgid "Using ransom when shipping International."
+msgstr "Koristi otkupninu prilikom međunarodnog dostavljanja"
+
+#: shippings/ibenic_woo_hp_shipping.php:111
+msgid "International - Returnee (Advice of Delivery)"
+msgstr "Međunarodno - povratnica"
+
+#: shippings/ibenic_woo_hp_shipping.php:113
+msgid "Using returnee when shipping International."
+msgstr "Koristi povratnicu prilikom međunarodnog dostavljanja"
+
+#: shippings/ibenic_woo_hp_shipping.php:117
+msgid "International - Cumbersome"
+msgstr "Međunarodno - glomazno"
+
+#: shippings/ibenic_woo_hp_shipping.php:119
+msgid "Packages are grossly/cumbersome when shipping International."
+msgstr "Paketi su glomazni prilikom međunarodnog dostavljanja"
+
+#: shippings/ibenic_woo_hp_shipping.php:124
+msgid "International - Fragile"
+msgstr "Međunarodno - lomljivo"
+
+#: shippings/ibenic_woo_hp_shipping.php:126
+msgid "Packages are fragile when shipping International."
+msgstr "Paketi su lomljivi prilikom međunarodnog dostavljanja"
+
+#: shippings/ibenic_woo_hp_shipping.php:133
+msgid "International - Insured Value"
+msgstr "Međunarodno - označena vrijednost"
+
+#: shippings/ibenic_woo_hp_shipping.php:135
+msgid ""
+"Enable or disable insured value for packages that can be sent with it. If "
+"disabled, insured value is applied only to shippings which require it and "
+"cannot ship without it."
+msgstr ""
+"Omogući ili onemogući označenu vrijednost za pakete koji se šalju sa "
+"označenom vrijednošću. Ukoliko je onemogućeno, označena vrijednost je "
+"pridodana dostavama koje zahtjevaju to i ne mogu se dostavljati bez toga."
