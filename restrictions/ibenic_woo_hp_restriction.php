@@ -14,38 +14,39 @@ class IBENIC_WOO_HP_RESTRICTION{
 
 			
 				 $chosen_methods = WC()->session->get( 'chosen_shipping_methods' );
+				 if( is_array( $chosen_methods ) ) {
+					 if(in_array('wc_hp_shipping', $chosen_methods)){
 
-				 if(in_array('wc_hp_shipping', $chosen_methods)){
+					 	$getCountryToShip = WC()->customer->get_shipping_country();
+					 	$shippingCountries = ibenic_get_hp_shipping_countries();
+					 	$wcCountries = new WC_Countries();
 
-				 	$getCountryToShip = WC()->customer->get_shipping_country();
-				 	$shippingCountries = ibenic_get_hp_shipping_countries();
-				 	$wcCountries = new WC_Countries();
+							 $WooCountries = $wcCountries->get_countries();
 
-						 $WooCountries = $wcCountries->get_countries();
+							 $message = "";
 
-						 $message = "";
+				 			 $messageType = "";
 
-			 			 $messageType = "";
+				 		 	 $methodLabel = __('Croatian Post Office','ibenic_woo_shipping');
 
-			 		 	 $methodLabel = __('Croatian Post Office','ibenic_woo_shipping');
-
-			 			 $selectedCountry = $WooCountries[$getCountryToShip];
+				 			 $selectedCountry = $WooCountries[$getCountryToShip];
 
 
-				 	    if($getCountryToShip != "HR" && !array_key_exists($getCountryToShip, $shippingCountries)){
+					 	    if($getCountryToShip != "HR" && !array_key_exists($getCountryToShip, $shippingCountries)){
 
-						 	$message = sprintf(__("Sorry, %s is not shipping to %s","ibenic_woo_shipping"), $methodLabel, $selectedCountry);
-						 	
-						 	$messageType = "error";
+							 	$message = sprintf(__("Sorry, %s is not shipping to %s","ibenic_woo_shipping"), $methodLabel, $selectedCountry);
+							 	
+							 	$messageType = "error";
 
-						 	if(!wc_has_notice($message, $messageType)){
-						 	
-						 		wc_add_notice($message, $messageType);
-						 
-						 	}
-						 	
-						 }
-				 }
+							 	if(!wc_has_notice($message, $messageType)){
+							 	
+							 		wc_add_notice($message, $messageType);
+							 
+							 	}
+							 	
+							 }
+					 }
+				}
 	
 			
 		}
